@@ -507,6 +507,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+
 .prtfl-item-box {
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -516,10 +517,16 @@ img {
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
+
 .prtfl-item-box:nth-last-child(3n + 1) {
   margin-right: 0;
 }
 
+.prtfl-item-box:hover,
+.prtfl-item-box:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .title-card {
   margin-top: 20px;
   margin-bottom: 0;
